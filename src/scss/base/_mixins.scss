@@ -1,25 +1,21 @@
 @use 'variables' as v;
 
 @mixin boton($color, $texto) {
-    background-color: $color;
-    font-size: 2rem;
     padding: 1.2rem 3rem;
     border-radius: 1rem;
-    font-weight: 700;
+    border: none;
     display: block;
-    width: 100%;
     text-align: center;
     color: $texto;
-    text-decoration: none;
+    background-color: $color;
     transition: background-color .3s ease;
-    border: none;
 
     &:hover {
         cursor: pointer;
         background-color: darken($color, 10);
     }
 
-    @include tablet {
-        width: auto;
+    @media (min-width: 768px) {
+        padding: 1.2rem;
     }
 }
