@@ -1,0 +1,88 @@
+@use "../base/variables" as v;
+
+.formulario {
+
+  &__grid {
+    display: grid;
+    gap: 2.4rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      gap: 4.8rem;
+    }
+  }
+
+  &__content {
+    padding: 4.8rem 2.4rem;
+    background-color: v.$primario;
+
+    @media (min-width: 768px) {
+      height: 100%;
+      padding: 3.2rem;
+    }
+
+    @media (min-width: 1024px) {
+      padding: 4.8rem;
+    }
+
+    @media (min-width: 1200px) {
+      padding: 10rem 4rem;
+    }
+  }
+
+  &__titulo {
+    margin-bottom: 2.4rem;
+    color: v.$blanco;
+
+    @media (min-width: 768px) {
+      text-align: center;
+      margin-bottom: 4.8rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 4rem;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 4.8rem;
+    }
+  }
+
+  &__campo {
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    text-transform: uppercase;
+    color: v.$blanco;
+  }
+
+  &__input {
+    padding: .4rem;
+    border: none;
+  }
+
+  &__buttom {
+    width: 100%;
+    padding: .8rem;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: v.$blanco;
+    background-color: v.$secundario;
+    cursor: pointer;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+}
