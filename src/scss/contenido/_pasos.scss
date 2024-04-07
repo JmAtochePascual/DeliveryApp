@@ -1,0 +1,48 @@
+@use "../base/variables" as v;
+
+.pasos {
+  overflow: hidden;
+
+  &__ola {
+    width: 100%;
+    height: auto;
+  }
+
+  &__bg {
+    padding-block: 2.4rem;
+    background-color: v.$primario;
+  }
+
+  &__titulo,
+  &__subtitulo {
+    text-align: center;
+    color: v.$blanco;
+  }
+
+  &__grid {
+    margin-top: 2.4rem;
+    display: grid;
+    justify-items: center;
+    gap: 1.6rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__img {
+    width: 30rem;
+    height: auto;
+
+    @media (min-width: 768px) {
+      width: 100%;
+    }
+
+    @media (min-width: 1024px) {
+      &:hover {
+        transition: transform .3s ease-in-out;
+        transform: rotate(-10deg) scale(1.1);
+      }
+    }
+  }
+}

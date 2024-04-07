@@ -47,7 +47,6 @@
 
   <section class="formulario">
     <div class="formulario__container">
-
       <div class="formulario__grid">
         <div class="formulario__content">
           <div>
@@ -59,7 +58,7 @@
               </div>
               <div class="formulario__campo">
                 <label for="platillo" class="formulario__label">platillo</label>
-                <input id="platillo" class="formulario__input" type="text">
+                <input id="platillo" class="formulario__input">
               </div>
               <input type="submit" class="formulario__buttom">
             </form>
@@ -68,6 +67,35 @@
 
         <img class="formulario__img" src="./build/img/dibujo_repartidor.svg" alt="imagen de repartidor animadfo"
           width="300">
+      </div>
+    </div>
+  </section>
+
+  <section class="pasos">
+    <img class="pasos__ola" src="./build/img/wave.svg" alt="imagen de ola" loading="lazy">
+
+    <div class="pasos__bg">
+      <div class="pasos__container">
+        <h2 class="pasos__titulo">¿Cómo funciona?</h2>
+        <p class="pasos__subtitulo">tan fácil como 1, 2 y 3</p>
+
+        <div class="pasos__grid">
+          <picture>
+            <source srcset="./build/img/paso_1.avif" type="image/avif">
+            <source srcset="./build/img/paso_1.webp" type="image/webp">
+            <img class="pasos__img" src="./build/img/paso_1.png" alt="paso 1" loading="lazy" width="300">
+          </picture>
+          <picture>
+            <source srcset="./build/img/paso_2.avif" type="image/avif">
+            <source srcset="./build/img/paso_2.webp" type="image/webp">
+            <img class="pasos__img" src="./build/img/paso_2.png" alt="paso 1" loading="lazy" width="300">
+          </picture>
+          <picture>
+            <source srcset="./build/img/paso_3.avif" type="image/avif">
+            <source srcset="./build/img/paso_3.webp" type="image/webp">
+            <img class="pasos__img" src="./build/img/paso_3.png" alt="paso 1" loading="lazy" width="300">
+          </picture>
+        </div>
       </div>
     </div>
   </section>

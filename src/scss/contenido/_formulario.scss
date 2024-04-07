@@ -1,6 +1,7 @@
 @use "../base/variables" as v;
 
 .formulario {
+  margin-bottom: v.$separacion;
 
   &__grid {
     display: grid;
