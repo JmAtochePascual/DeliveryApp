@@ -61,8 +61,6 @@
     }
   }
 
-
-
   &__header {
     margin-bottom: 1.6rem;
     display: flex;
@@ -79,6 +77,11 @@
   &__nombre {
     font-family: 700;
     color: v.$blanco;
+  }
+
+  &__estrella {
+    width: 10rem;
+    height: 1.6rem;
   }
 
   &__texto {
