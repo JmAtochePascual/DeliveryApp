@@ -4,7 +4,7 @@ Este proyecto es una página web diseñada para facilitar la entrega de comida d
 
 ## 🎯 Contenido
 
-1. [Descripción](#📝-descripción)
+1. [Descripción](#📝descripción)
 2. [Tecnologías y Herramientas](#🛠️-tecnologías-y-herramientas)
 3. [Estructura del Proyecto](#🚀-estructura-del-proyecto)
 4. [Uso](#🧑‍💻-uso)
@@ -13,7 +13,7 @@ Este proyecto es una página web diseñada para facilitar la entrega de comida d
 7. [Imagen de Referencia](#🙈-imagen-de-rereferencia)
 8. [Ver Proyecto en la WEB](#🌐-ver-proyecto-en-la-web)
 
-## 📝 Descripción
+## 📝Descripción
 
 El proyecto es una página web que sirve como plataforma para la entrega de comida, conectando a los usuarios con una amplia variedad de restaurantes. Ofrece una experiencia de navegación fluida y funcionalidades como búsqueda de platillos, recomendaciones personalizadas, y seguimiento en tiempo real de los pedidos.
 
