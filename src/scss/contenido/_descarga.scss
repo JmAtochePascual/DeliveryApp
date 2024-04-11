@@ -1,0 +1,68 @@
+@use "../base/variables" as v;
+
+.descargar {
+  padding-block: 2.4rem;
+  background-color: v.$grisClaro;
+
+  @media (min-width: 768px) {
+    padding-block: 4.8rem;
+  }
+
+  &__grid {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 4.8rem;
+
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: center;
+    }
+  }
+
+  &__img {
+    width: 30rem;
+    height: auto;
+
+    @media (min-width: 1024px) {
+      &:hover {
+        transition: transform .3s ease-in-out;
+        transform: scale(1.1) rotate(3deg);
+      }
+    }
+  }
+}
+
+.tiendas {
+  text-align: center;
+
+  &__titulo {
+    margin-bottom: .8rem;
+    color: v.$secundario;
+  }
+
+  &__grid {
+    margin-top: 1.6rem;
+    display: grid;
+    justify-items: center;
+    gap: .8rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.6rem;
+    }
+  }
+
+  &__img {
+    width: 20rem;
+
+    @media (min-width: 1024px) {
+      &:hover {
+        transition: transform .3s ease-in-out;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
