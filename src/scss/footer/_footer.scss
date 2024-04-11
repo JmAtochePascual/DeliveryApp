@@ -1,0 +1,42 @@
+@use "../base/variables" as v;
+
+.footer {
+  background-color: v.$secundario;
+
+  &__grid {
+    padding-block: 2.4rem;
+    display: grid;
+    gap: 1.6rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.4rem;
+    }
+  }
+
+  &__box {
+    color: v.$blanco;
+  }
+
+  &__titulo {
+    margin-bottom: .8rem;
+    font-size: 2.4rem;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  &__link {
+    color: v.$blanco;
+  }
+
+  &__copy {
+    padding-block: .8rem;
+    text-align: center;
+    color: v.$blanco;
+    background-color: v.$primario;
+  }
+}
