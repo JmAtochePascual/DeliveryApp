@@ -67,6 +67,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐 Ver Proyecto en la WEB
 
-[ver Proyecto](URL_del_enlace)
+[ver Proyecto](https://jmatochepacual.github.io/DeliveryApp/)
 
 © 2024 AppComida. Todos los derechos reservados.
